@@ -2,6 +2,7 @@ import react from "react";
 import React, { useState } from "react";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
 
 function Signup() {
   const Primarycolor = "#ff4d2d";
@@ -135,6 +136,9 @@ function Signup() {
         >
           Sign Up
         </button>
+        <button className="w-full font">  <FcGoogle size={20}/>
+        <span>sing up with Google</span></button>
+      
       </div>
     </div>
   );
